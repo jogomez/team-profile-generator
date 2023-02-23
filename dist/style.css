@@ -1,0 +1,53 @@
+.hero
+{
+    text-align: center;
+}
+
+.hero-title{
+    font-size: 3rem;
+}
+
+.manager .engineer .intern
+{
+   font-size: 2rem;
+   /* margin-bottom: 50px; */
+}
+
+.container-manager
+{
+    display: inline-block;
+    width: 990px;
+    margin: 0 10%;
+}
+
+.container-employee
+{
+    display: inline-block;
+    width: 300px;
+    margin: 0 5px;
+}
+
+.manager
+{
+    background-color: #cfecbf;
+    margin: 0 10px;
+}
+
+.engineer
+{
+    background-color: rgb(147, 187, 219);
+    margin: 0 10px;
+}
+
+.intern
+{
+    background-color: rgb(238, 225, 161);
+    margin: 0 10px;
+}
+
+.is-parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
