@@ -1,6 +1,24 @@
 .hero
 {
     text-align: center;
+    height: 100%;
+    border-style: solid;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("20944999.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content{
+    border: inset;
+    background: hsl(92deg 69% 96%);
+    width: 257px;
+}
+
+.hero-body{
+    color: rgb(255, 162, 0);
 }
 
 .hero-title{
@@ -9,15 +27,20 @@
 
 .manager .engineer .intern
 {
-   font-size: 2rem;
-   /* margin-bottom: 50px; */
+    font-size: 2rem;
 }
 
-.container-manager
+.container-all
 {
     display: inline-block;
     width: 990px;
-    margin: 0 10%;
+    margin: 0 20% 0 20%;
+}
+
+.container-manager{
+    width: 275px;
+    justify-content: center;
+    margin: auto;
 }
 
 .container-employee
@@ -51,3 +74,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+footer
+{
+    margin: 0.5% 0% 2% 35%;
+}
+
